@@ -1,5 +1,5 @@
 # Linked List Implementation in Java.
-## Basic Operations implemented in the above Linked List java program are :
+### Basic Operations implemented in the above Linked List java program are :
 - Insert Begining : which inserts an element at the begining of the linked list.
 - Insert Ending : which inserts an element at the end of the linked list.
 - Insert Position : which inserts an element at the required position of the linked list.
