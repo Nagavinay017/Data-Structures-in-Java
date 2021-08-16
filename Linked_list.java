@@ -224,7 +224,7 @@ public class Linked_list{
                             break;
                 case 8 :    l1.display();break;
                 case 9 :    System.out.println("Length : "+l1.length());break;
-                case 10 :    System.out.print("1.Insert Begining\n2.Insert Ending\n3.Insert Position\n4.Delete Begining\n5.Delete Ending\n6.Delete Position\n7.Delete Element\n8.Display\n9.Length\n10.Help\n11.Exit\n");break;
+                case 10 :   System.out.print("1.Insert Begining\n2.Insert Ending\n3.Insert Position\n4.Delete Begining\n5.Delete Ending\n6.Delete Position\n7.Delete Element\n8.Display\n9.Length\n10.Help\n11.Exit\n");break;
                 case 11 :   System.exit(0);
                 default :   System.out.println("Entered wrong choice");
             }
