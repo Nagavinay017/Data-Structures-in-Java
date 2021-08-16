@@ -7,3 +7,5 @@
 - <b>Delete Ending :</b> <i>which deletes the element at the end of the linked list.</i>
 - <b>Delete Position :</b> <i>which deletes the element at the required position of the linked list.</i>
 - <b>Delete Element :</b> <i>which deletes the particular element of the linked list.</i>
+- <b>Display :</b> <i>displays the linked list.</i>
+- <b>Length :</b> <i>return length of the linked list.</i>
