@@ -1,6 +1,7 @@
 
 import java.util.*;
 
+// Node of a Linked List
 class Node{
     int data;
     Node next;
@@ -10,6 +11,7 @@ class Node{
     }
 }
 
+// Linked List Class
 public class Linked_list{
     public Scanner sc=new Scanner(System.in);
     public Node head;
@@ -17,6 +19,7 @@ public class Linked_list{
         head=null;
     }
 
+    // Insert Begining
     public void insertbeg(int data){
         
         Node temp=new Node(data);
@@ -29,6 +32,7 @@ public class Linked_list{
         }
     }
 
+    // Insert Ending
     public void insertend(int data){
         
         Node temp=new Node(data);
@@ -44,6 +48,7 @@ public class Linked_list{
         }
     }
 
+    // Insert Position
     public void insertpos(int data,int pos){
 
         if(pos <= 0 || pos > length()+1){
@@ -70,7 +75,8 @@ public class Linked_list{
             }
         }
     }
-
+    
+    // Length
     public int length(){
         Node ptr=head;
         int count=0;
@@ -81,6 +87,7 @@ public class Linked_list{
         return count;
     }
 
+    // Delete Begining
     public void deletebeg(){
         if(head==null){
             System.out.println("Linked list is empty");
@@ -90,6 +97,7 @@ public class Linked_list{
         }
     }
 
+    // Delete Ending
     public void deleteend(){
         if(head==null){
             System.out.println("Linked list is empty");
@@ -111,6 +119,7 @@ public class Linked_list{
         }
     }
 
+    // Delete Position
     public void deletepos(int pos){
         if(head==null){
             System.out.println("Linked list is empty");
@@ -140,6 +149,7 @@ public class Linked_list{
         }
     }
 
+    // Delete Element
     public void deleteele(int data){
         Node ptr=head;
         int pos=1,flag=0;
@@ -162,6 +172,7 @@ public class Linked_list{
         }
     }
 
+    // Display
     public void display(){
         if(head==null){
             System.out.println("Linked list is empty.");
@@ -176,6 +187,7 @@ public class Linked_list{
         }
     }
 
+    // Main Function
     public static void main(String args[]){
 
         Linked_list l1=new Linked_list();
