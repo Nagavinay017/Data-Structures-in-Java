@@ -14,7 +14,7 @@ class Node{
 // Linked List Class
 public class Linked_list{
     
-    public Node head;
+    Node head;
     Linked_list(){
         head=null;
     }
