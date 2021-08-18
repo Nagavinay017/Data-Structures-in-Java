@@ -16,7 +16,7 @@ public class Stack1{
     }
 
     // Checks whether stack is empty or not
-    public boolean isEmpty(){
+    boolean isEmpty(){
         if(top==-1)
             return true;
         else
@@ -24,7 +24,7 @@ public class Stack1{
     }
 
     // Checks whether stack is full or not
-    public boolean isFull(){
+    boolean isFull(){
         if(top==size-1)
             return true;
         else
@@ -32,7 +32,7 @@ public class Stack1{
     }
 
     // Push
-    public void push(int data){
+    void push(int data){
         if(isFull())
             System.out.println("Stack is full");
         else
@@ -40,7 +40,7 @@ public class Stack1{
     }
 
     // Pop
-    public void pop(){
+    void pop(){
         if(isEmpty())
             System.out.println("Stack is empty");
         else
@@ -48,7 +48,7 @@ public class Stack1{
     }
 
     // Peek
-    public void peek(){
+    void peek(){
         if(isEmpty())
             System.out.println("Stack is empty");
         else
@@ -56,7 +56,7 @@ public class Stack1{
     }
 
     // Display
-    public void display(){
+    void display(){
         if(isEmpty())
             System.out.println("Stack is empty");
         else{
