@@ -11,6 +11,8 @@ class Node{
     }
 }
 
+// Stack implementation using linked list
+// Stack class 
 public class Stack2{
 
     Node top;
@@ -18,6 +20,7 @@ public class Stack2{
         top=null;
     }
 
+    // Push
     void push(int data){
         Node temp=new Node(data);
         if(top==null){
@@ -29,6 +32,7 @@ public class Stack2{
         }
     }
 
+    // Pop
     void pop(){
         if(top==null){
             System.out.println("Stack is empty");
@@ -39,6 +43,7 @@ public class Stack2{
         }
     }
 
+    // Display
     void display(){
         if(top==null){
             System.out.println("Stack is empty");
@@ -52,6 +57,7 @@ public class Stack2{
         }
     }
 
+    // Peek
     void peek(){
         if(top==null){
             System.out.println("Stack is empty");
@@ -61,7 +67,7 @@ public class Stack2{
         }
     }
 
-
+    // Main function
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         Stack2 s2=new Stack2();
