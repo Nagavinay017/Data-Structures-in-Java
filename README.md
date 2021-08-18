@@ -1,7 +1,7 @@
 # Data Structures in Java
 ### Linked List :
 ### Operations implemented in the above Linked List java program are :
-- <b>Insert Begining  :</b> <i>which inserts an element at the begining of the linked list.</i>
+- <b>Insert Begining  :emsp</b> <i>which inserts an element at the begining of the linked list.</i>
 - <b>Insert Ending    :</b> <i>which inserts an element at the end of the linked list.</i>
 - <b>Insert Position  :</b> <i>which inserts an element at the required position of the linked list.</i>
 - <b>Delete Begining  :</b> <i>which deletes the element at the begining of the linked list.</i>
