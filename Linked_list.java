@@ -13,7 +13,7 @@ class Node{
 
 // Linked List Class
 public class Linked_list{
-    public Scanner sc=new Scanner(System.in);
+    
     public Node head;
     Linked_list(){
         head=null;
