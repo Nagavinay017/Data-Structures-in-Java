@@ -18,4 +18,7 @@
 - <b>Display  &emsp;:&emsp;</b> <i>which displays the stack.</i>
 - <b>Peek     &emsp;:&emsp;</b> <i>which returns the top element of the stack.</i>
 
+## Stack Implementation using Linked List :
+### Operations implemented in the above Stack2 java program are :
+- <b>Push     &emsp;:&emsp;</b> <i>which inserts an element into the stack.</i>
 
