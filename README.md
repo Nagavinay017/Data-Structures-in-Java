@@ -1,5 +1,5 @@
 # Data Structures in Java
-### Linked List Implementation in Java
+### Linked List :
 ### Operations implemented in the above Linked List java program are :
 - <b>Insert Begining  :</b> <i>which inserts an element at the begining of the linked list.</i>
 - <b>Insert Ending    :</b> <i>which inserts an element at the end of the linked list.</i>
