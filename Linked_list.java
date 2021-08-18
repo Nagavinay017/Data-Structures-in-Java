@@ -13,14 +13,14 @@ class Node{
 
 // Linked List Class
 public class Linked_list{
-    
+
     Node head;
     Linked_list(){
         head=null;
     }
 
     // Insert Begining
-    public void insertbeg(int data){
+    void insertbeg(int data){
         
         Node temp=new Node(data);
         if(head==null){
@@ -33,7 +33,7 @@ public class Linked_list{
     }
 
     // Insert Ending
-    public void insertend(int data){
+    void insertend(int data){
         
         Node temp=new Node(data);
         if(head==null){
@@ -49,7 +49,7 @@ public class Linked_list{
     }
 
     // Insert Position
-    public void insertpos(int data,int pos){
+    void insertpos(int data,int pos){
 
         if(pos <= 0 || pos > length()+1){
             System.out.println("Invalid position");
@@ -77,7 +77,7 @@ public class Linked_list{
     }
     
     // Length
-    public int length(){
+    int length(){
         Node ptr=head;
         int count=0;
         while(ptr!=null){
@@ -88,7 +88,7 @@ public class Linked_list{
     }
 
     // Delete Begining
-    public void deletebeg(){
+    void deletebeg(){
         if(head==null){
             System.out.println("Linked list is empty");
         }
@@ -98,7 +98,7 @@ public class Linked_list{
     }
 
     // Delete Ending
-    public void deleteend(){
+    void deleteend(){
         if(head==null){
             System.out.println("Linked list is empty");
         }
@@ -120,7 +120,7 @@ public class Linked_list{
     }
 
     // Delete Position
-    public void deletepos(int pos){
+    void deletepos(int pos){
         if(head==null){
             System.out.println("Linked list is empty");
         }
@@ -150,7 +150,7 @@ public class Linked_list{
     }
 
     // Delete Element
-    public void deleteele(int data){
+    void deleteele(int data){
         Node ptr=head;
         int pos=1,flag=0;
         if(head==null){
@@ -173,7 +173,7 @@ public class Linked_list{
     }
 
     // Display
-    public void display(){
+    void display(){
         if(head==null){
             System.out.println("Linked list is empty.");
         }
