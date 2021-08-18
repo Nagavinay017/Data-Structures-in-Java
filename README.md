@@ -1,5 +1,5 @@
 # Data Structures in Java
-### Linked List :
+## Linked List :
 ### Operations implemented in the above Linked List java program are :
 - <b>Insert Begining  &emsp;:&emsp;</b> <i>which inserts an element at the begining of the linked list.</i>
 - <b>Insert Ending    &emsp;:&emsp;</b> <i>which inserts an element at the end of the linked list.</i>
@@ -11,7 +11,7 @@
 - <b>Display          &emsp;:&emsp;</b> <i>displays the linked list.</i>
 - <b>Length           &emsp;:&emsp;</b> <i>return length of the linked list.</i>
 
-### Stack Implementation using Array :
+## Stack Implementation using Array :
 ### Operations implemented in the above Stack1 java program are :
 - <b>Push     &emsp;:&emsp;</b> <i>which inserts an element into the stack.</i>
 - <b>Pop      &emsp;:&emsp;</b> <i>which removes the top element from the stack.</i>
