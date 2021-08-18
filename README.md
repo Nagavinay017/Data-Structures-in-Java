@@ -23,4 +23,6 @@
 ### Since, we have used linked list for implementation of stack, the size of the stack is dynamic.
 ### Operations implemented in the above Stack2.java program are :
 - <b>Push     &emsp;:&emsp;</b> <i>which inserts an element into the stack.</i>
-
+- <b>Pop      &emsp;:&emsp;</b> <i>which removes the top element from the stack.</i>
+- <b>Display  &emsp;:&emsp;</b> <i>which displays the stack.</i>
+- <b>Peek     &emsp;:&emsp;</b> <i>which returns the top element of the stack.</i>
