@@ -13,7 +13,7 @@
 
 ## Stack Implementation using Array :
 ### Since, we have used array for implementation of stack, the size of the stack is static.
-### Operations implemented in the above Stack1.java program are :
+### Operations implemented in the above Stack_using_array.java program are :
 - <b>Push     &emsp;:&emsp;</b> <i>which inserts an element into the stack.</i>
 - <b>Pop      &emsp;:&emsp;</b> <i>which removes the top element from the stack.</i>
 - <b>Display  &emsp;:&emsp;</b> <i>which displays the stack.</i>
@@ -21,7 +21,7 @@
 
 ## Stack Implementation using Linked List :
 ### Since, we have used linked list for implementation of stack, the size of the stack is dynamic.
-### Operations implemented in the above Stack2.java program are :
+### Operations implemented in the above Stack_using_linkedlist.java program are :
 - <b>Push     &emsp;:&emsp;</b> <i>which inserts an element into the stack.</i>
 - <b>Pop      &emsp;:&emsp;</b> <i>which removes the top element from the stack.</i>
 - <b>Display  &emsp;:&emsp;</b> <i>which displays the stack.</i>
