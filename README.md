@@ -26,3 +26,10 @@
 - <b>Pop      &emsp;:&emsp;</b> <i>which removes the top element from the stack.</i>
 - <b>Display  &emsp;:&emsp;</b> <i>which displays the stack.</i>
 - <b>Peek     &emsp;:&emsp;</b> <i>which returns the top element of the stack.</i>
+
+
+## Queue and Circular Queue Implementation using Array :
+### Operations implemented in the above queue.java and Circular_queue.java program are :
+- <b>Enqueue     &emsp;:&emsp;</b> <i>which adds an element into the queue.</i>
+- <b>Dequeue      &emsp;:&emsp;</b> <i>which removes the element from the queue.</i>
+- <b>Display  &emsp;:&emsp;</b> <i>which displays the queue.</i>
